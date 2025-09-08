@@ -1,32 +1,24 @@
-# 🍎 Fruit Grading and Classification
+Fruit Grading and Classification
 
 This project focuses on the automated grading and classification of fruits using advanced machine learning and image processing techniques.  
 It aims to streamline quality control processes in the agricultural and food industries by accurately assessing fruit quality based on predefined standards.
 
----
 ✨ Key Features
 - Image Preprocessing: Resizing, normalization, and noise removal for clean inputs.  
 - Feature Extraction: Color, shape, texture, and size features for classification.  
 - Classification Models: ML algorithms (SVM, Random Forest, CNNs) for accurate fruit identification.  
-- Grading Mechanism: Categorization of fruits into grades (A, B, C) based on quality, defects, and size.  
-- Interactive Visualizations: Clear visual outputs and evaluation metrics.  
+- Grading Mechanism: Categorization of fruits into grades (Fresh fruit, Rotten fruit) based on quality, defects, and size.    
 - Scalability: Capable of handling large fruit image datasets for industrial-scale deployment.  
-
----
 
 🎯 Objectives
 - Automate Quality Control: Reduce manual effort and human bias in fruit grading.  
 - Enhance Accuracy: Use robust ML algorithms to improve classification precision.  
 - Support Industry Standards: Align with grading benchmarks in agriculture & food supply chains.  
 
----
-
 🛠️ Technologies Used
 - Programming Language: Python  
 - Libraries & Frameworks: OpenCV, Scikit-learn, TensorFlow/Keras, NumPy, Pandas  
 - Visualization Tools: Matplotlib, Seaborn  
-
----
 
 🔄 Workflow
 1. Dataset Preparation – Collection & preprocessing of fruit images.  
@@ -35,12 +27,35 @@ It aims to streamline quality control processes in the agricultural and food ind
 4. Grading System – Assign fruit grades based on classification results.  
 5. Deployment – Scalable solution for real-time fruit grading in industry.  
 
----
-
 🚀 Use Cases
 - Automating fruit sorting processes in packaging units.  
 - AI-driven quality control for agriculture supply chains.  
 - Supporting decision-making in food export/import industries.  
+
+Grading Dataset -
+
+| Class     | Rotten     | Fresh      | Total      |
+| --------- | ---------- | ---------- | ---------- |
+| Apple     | 3,609      | 7,383      | 10,992     |
+| Banana    | 8,068      | 4,089      | 12,157     |
+| Orange    | 2,776      | 6,393      | 9,169      |
+| Total     | 14,453     | 17,865     | 32,318     |
+
+Classification Dataset -
+
+| Class Label | Training  | Testing   | Total     |
+| ----------- | --------- | --------- | --------- |
+| Apple       | 4,821     | 2,408     | 7,229     |
+| Cabbage     | 96        | 47        | 143       |
+| Carrot      | 101       | 50        | 151       |
+| Peer        | 263       | 131       | 394       |
+| Cucumber    | 160       | 80        | 240       |
+| Eggplant    | 470       | 234       | 704       |
+| Zucchini    | 320       | 160       | 480       |
+| Total       | 6,231     | 3,110     | 9,341     |
+
+
+
 
 ---
 
